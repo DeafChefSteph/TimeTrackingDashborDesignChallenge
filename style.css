@@ -1,0 +1,172 @@
+@import url('https://fonts.google.com/specimen/Rubik');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    color: hsl(236, 100%, 87%);  
+    font-family: 'Rubik', 'sanserif';
+}
+
+#main{
+    
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+#personHeader{
+    width: 15%;
+    height: 65%;
+    margin: auto;
+    margin-left: 14.5%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1rem;
+}
+
+#personHeader-top{
+    background-color:hsl(235, 45%, 61%); 
+    border-radius: 1rem;
+}
+
+#personHeader p, h2{
+    margin-left: 1rem;
+}
+
+#personHeader h2{
+    padding-bottom: 30%;
+    font-size: 36px;
+}
+
+#profilePicture{
+    height: 4rem;
+    border: 2px white solid;
+    border-radius: 4rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+#timeSelector{
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#timeSelector p{
+    margin: 1rem; 
+}
+
+#data{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    margin: auto;
+    margin-right: 14.5%;
+}
+
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    min-width: 15rem; 
+    min-height: 12rem;
+    margin: 1rem;
+
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1rem;
+}
+
+.stylingDiv{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divImg{
+    width: 4rem;
+    height: 1.5rem;
+    margin-left: 65%;
+}
+
+.iconBackground{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.lowerDiv{
+    margin-top: -15px;
+    border-radius: 1rem;
+    background-color: hsl(235, 46%, 20%);
+
+}
+
+.divHeader{
+    margin-left: 2rem;
+}
+
+.divCircleIcon{
+    height: 0.25rem;
+    width: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.divTime{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 48px; 
+    
+}
+
+.divPreviousTime{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 400px){
+#main{
+    flex-direction: column;
+}
+
+#personHeader{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.contentDiv{
+    margin: 1rem;
+    width: 90%;
+    
+}
+
+#data{
+    align-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#timeSelector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
